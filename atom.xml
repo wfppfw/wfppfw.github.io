@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wfppfw.github.io/"/>
-  <updated>2020-07-13T18:05:50.093Z</updated>
+  <updated>2020-10-30T05:17:06.165Z</updated>
   <id>https://wfppfw.github.io/</id>
   
   <author>
@@ -15,6 +15,76 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>redis(一)</title>
+    <link href="https://wfppfw.github.io/2020/10/30/redis/"/>
+    <id>https://wfppfw.github.io/2020/10/30/redis/</id>
+    <published>2020-10-30T05:09:57.000Z</published>
+    <updated>2020-10-30T05:17:06.165Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="一、下载安装redis"><a href="#一、下载安装redis" class="headerlink" title="一、下载安装redis"></a>一、下载安装redis</h1><ol><li><a href="https://www.redis.net.cn/download/">下载地址</a></li><li>存放目录：/usr/local， 快捷键command+shift+g，输入/usr/local, 快速跳转到该目录下</li><li>解压、编译当前目录，打开命令行工具，执行解压命令：tar zxvf redis-5.0.8.tar.gz，执行 sudo make test 编译测试，sudo make install 编译安装</li><li>执行 redis-server 启动服务</li><li>另起命令行窗口，执行redis-cli 开启项目即可</li><li>测试：</li></ol><ul><li>存储命令： set name william，输出ok，即表示成功</li><li>获取命令： get name，输出对应的value值</li></ul><h1 id="二、安装可视化工具"><a href="#二、安装可视化工具" class="headerlink" title="二、安装可视化工具"></a>二、安装可视化工具</h1><ol><li><a href="https://sn9.us/file/19349366-399568027">下载链接</a></li><li>Settings-&gt;language-&gt;zh_CN</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="springboot" scheme="https://wfppfw.github.io/categories/springboot/"/>
+    
+    
+      <category term="redis" scheme="https://wfppfw.github.io/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Untitled-2</title>
+    <link href="https://wfppfw.github.io/2020/10/30/Untitled-2/"/>
+    <id>https://wfppfw.github.io/2020/10/30/Untitled-2/</id>
+    <published>2020-10-30T04:53:31.458Z</published>
+    <updated>2020-10-30T04:53:31.458Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Untitled-1</title>
+    <link href="https://wfppfw.github.io/2020/10/30/Untitled-1/"/>
+    <id>https://wfppfw.github.io/2020/10/30/Untitled-1/</id>
+    <published>2020-10-30T04:53:21.839Z</published>
+    <updated>2020-10-30T04:53:21.839Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Untitled</title>
@@ -45,7 +115,7 @@
     <published>2020-07-13T05:09:57.000Z</published>
     <updated>2020-07-13T17:46:24.973Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="1-运行一个Springboot的例子"><a href="#1-运行一个Springboot的例子" class="headerlink" title="1.运行一个Springboot的例子"></a>1.运行一个Springboot的例子</h3><p>idea上建立并运行一个简单的springboot项目,并且输出”hello,springboot”.</p><p>​ 前提：配置好maven</p><a id="more"></a><h5 id="1-打开idea-新建Spring-Initializr-选择Deafult-gt-Next"><a href="#1-打开idea-新建Spring-Initializr-选择Deafult-gt-Next" class="headerlink" title="(1)打开idea,新建Spring Initializr,选择Deafult,-&gt;Next"></a>(1)打开idea,新建Spring Initializr,选择Deafult,-&gt;Next</h5><p>​ <img data-src="2020-07-13-springboot/springboot-porject1.png" alt="1"></p><h5 id="2-这里的话基本上可以不用改动，因为我们只是简单运行一个demo而已，-gt-Next"><a href="#2-这里的话基本上可以不用改动，因为我们只是简单运行一个demo而已，-gt-Next" class="headerlink" title="(2)这里的话基本上可以不用改动，因为我们只是简单运行一个demo而已，-&gt;Next"></a>(2)这里的话基本上可以不用改动，因为我们只是简单运行一个demo而已，-&gt;Next</h5><p><img data-src="2020-07-13-springboot/springboot-porject2.png" alt="2"></p><h5 id="3-这里选择web-gt-Spring-Web-勾选，这里还有其他很多的配置，后面的项目看情况需要勾选，选中这个后其实就是使用了Spring-MVC。"><a href="#3-这里选择web-gt-Spring-Web-勾选，这里还有其他很多的配置，后面的项目看情况需要勾选，选中这个后其实就是使用了Spring-MVC。" class="headerlink" title="(3)这里选择web-&gt;Spring Web,勾选，这里还有其他很多的配置，后面的项目看情况需要勾选，选中这个后其实就是使用了Spring MVC。"></a>(3)这里选择web-&gt;Spring Web,勾选，这里还有其他很多的配置，后面的项目看情况需要勾选，选中这个后其实就是使用了Spring MVC。</h5><p><img data-src="2020-07-13-springboot/springboot-porject3.png" alt="3"></p><h5 id="4-这里是项目名称，地址之类的，-gt-Next"><a href="#4-这里是项目名称，地址之类的，-gt-Next" class="headerlink" title="(4)这里是项目名称，地址之类的，-&gt;Next"></a>(4)这里是项目名称，地址之类的，-&gt;Next</h5><p><img data-src="2020-07-13-springboot/springboot-porject4.png" alt="4"></p><h5 id="5-打开后是可见下图的项目目录结构"><a href="#5-打开后是可见下图的项目目录结构" class="headerlink" title="(5)打开后是可见下图的项目目录结构"></a>(5)打开后是可见下图的项目目录结构</h5><p><img data-src="2020-07-13-springboot/springboot-porject5.png" alt="5"></p><h5 id="6-接着，我们新建一个controller包，新建Hellocontroller类。"><a href="#6-接着，我们新建一个controller包，新建Hellocontroller类。" class="headerlink" title="(6)接着，我们新建一个controller包，新建Hellocontroller类。"></a>(6)接着，我们新建一个controller包，新建Hellocontroller类。</h5><p><img data-src="2020-07-13-springboot/springboot-porject6.png" alt="6"></p><p>代码：</p><pre class=" language-java"><code class="language-java"><span class="token keyword">package</span> com<span class="token punctuation">.</span>example<span class="token punctuation">.</span>demo<span class="token punctuation">.</span>controller<span class="token punctuation">;</span><span class="token keyword">import</span> org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>web<span class="token punctuation">.</span>bind<span class="token punctuation">.</span>annotation<span class="token punctuation">.</span>RequestMapping<span class="token punctuation">;</span><span class="token keyword">import</span> org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>web<span class="token punctuation">.</span>bind<span class="token punctuation">.</span>annotation<span class="token punctuation">.</span>RestController<span class="token punctuation">;</span><span class="token annotation punctuation">@RestController</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HelloController</span> <span class="token punctuation">{</span>    <span class="token annotation punctuation">@RequestMapping</span><span class="token punctuation">(</span><span class="token string">"hello"</span><span class="token punctuation">)</span>    <span class="token keyword">public</span> String <span class="token function">hello</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>        <span class="token keyword">return</span> <span class="token string">"hello springBoot"</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><p><img data-src="2020-07-13-springboot/10.png" alt="6.2"></p><h5 id="7-新建配置文件application-yml-简单配置如下："><a href="#7-新建配置文件application-yml-简单配置如下：" class="headerlink" title="(7)新建配置文件application.yml,简单配置如下："></a>(7)新建配置文件application.yml,简单配置如下：</h5><p><img data-src="2020-07-13-springboot/9.png" alt="7"></p><p><img data-src="2020-07-13-springboot/springboot-porject7.png" alt="7"></p><h5 id="8-打开浏览器，查看效果"><a href="#8-打开浏览器，查看效果" class="headerlink" title="(8)打开浏览器，查看效果"></a>(8)打开浏览器，查看效果</h5><p><img data-src="2020-07-13-springboot/springboot-porject8.png" alt="8"></p><h5 id="9-我遇到的问题"><a href="#9-我遇到的问题" class="headerlink" title="(9)我遇到的问题"></a>(9)我遇到的问题</h5><p>​ springboot依赖下载很慢，使用镜像，</p><p>​</p><p>​</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="1-运行一个Springboot的例子"><a href="#1-运行一个Springboot的例子" class="headerlink" title="1.运行一个Springboot的例子"></a>1.运行一个Springboot的例子</h3><p>idea上建立并运行一个简单的springboot项目,并且输出”hello,springboot”.</p><p>​ 前提：配置好maven</p><a id="more"></a><h5 id="1-打开idea-新建Spring-Initializr-选择Deafult-gt-Next"><a href="#1-打开idea-新建Spring-Initializr-选择Deafult-gt-Next" class="headerlink" title="(1)打开idea,新建Spring Initializr,选择Deafult,-&gt;Next"></a>(1)打开idea,新建Spring Initializr,选择Deafult,-&gt;Next</h5><p>​ <img data-src="2020-07-13-springboot/springboot-porject1.png" alt="1"></p><h5 id="2-这里的话基本上可以不用改动，因为我们只是简单运行一个demo而已，-gt-Next"><a href="#2-这里的话基本上可以不用改动，因为我们只是简单运行一个demo而已，-gt-Next" class="headerlink" title="(2)这里的话基本上可以不用改动，因为我们只是简单运行一个demo而已，-&gt;Next"></a>(2)这里的话基本上可以不用改动，因为我们只是简单运行一个demo而已，-&gt;Next</h5><p><img data-src="2020-07-13-springboot/springboot-porject2.png" alt="2"></p><h5 id="3-这里选择web-gt-Spring-Web-勾选，这里还有其他很多的配置，后面的项目看情况需要勾选，选中这个后其实就是使用了Spring-MVC。"><a href="#3-这里选择web-gt-Spring-Web-勾选，这里还有其他很多的配置，后面的项目看情况需要勾选，选中这个后其实就是使用了Spring-MVC。" class="headerlink" title="(3)这里选择web-&gt;Spring Web,勾选，这里还有其他很多的配置，后面的项目看情况需要勾选，选中这个后其实就是使用了Spring MVC。"></a>(3)这里选择web-&gt;Spring Web,勾选，这里还有其他很多的配置，后面的项目看情况需要勾选，选中这个后其实就是使用了Spring MVC。</h5><p><img data-src="2020-07-13-springboot/springboot-porject3.png" alt="3"></p><h5 id="4-这里是项目名称，地址之类的，-gt-Next"><a href="#4-这里是项目名称，地址之类的，-gt-Next" class="headerlink" title="(4)这里是项目名称，地址之类的，-&gt;Next"></a>(4)这里是项目名称，地址之类的，-&gt;Next</h5><p><img data-src="2020-07-13-springboot/springboot-porject4.png" alt="4"></p><h5 id="5-打开后是可见下图的项目目录结构"><a href="#5-打开后是可见下图的项目目录结构" class="headerlink" title="(5)打开后是可见下图的项目目录结构"></a>(5)打开后是可见下图的项目目录结构</h5><p><img data-src="2020-07-13-springboot/springboot-porject5.png" alt="5"></p><h5 id="6-接着，我们新建一个controller包，新建Hellocontroller类。"><a href="#6-接着，我们新建一个controller包，新建Hellocontroller类。" class="headerlink" title="(6)接着，我们新建一个controller包，新建Hellocontroller类。"></a>(6)接着，我们新建一个controller包，新建Hellocontroller类。</h5><p><img data-src="2020-07-13-springboot/springboot-porject6.png" alt="6"></p><p>代码：</p><pre class=" language-java"><code class="language-java"><span class="token keyword">package</span> com<span class="token punctuation">.</span>example<span class="token punctuation">.</span>demo<span class="token punctuation">.</span>controller<span class="token punctuation">;</span><span class="token keyword">import</span> org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>web<span class="token punctuation">.</span>bind<span class="token punctuation">.</span>annotation<span class="token punctuation">.</span>RequestMapping<span class="token punctuation">;</span><span class="token keyword">import</span> org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>web<span class="token punctuation">.</span>bind<span class="token punctuation">.</span>annotation<span class="token punctuation">.</span>RestController<span class="token punctuation">;</span><span class="token annotation punctuation">@RestController</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HelloController</span> <span class="token punctuation">{</span>    <span class="token annotation punctuation">@RequestMapping</span><span class="token punctuation">(</span><span class="token string">"hello"</span><span class="token punctuation">)</span>    <span class="token keyword">public</span> String <span class="token function">hello</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>        <span class="token keyword">return</span> <span class="token string">"hello springBoot"</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><p><img data-src="2020-07-13-springboot/10.png" alt="6.2"></p><h5 id="7-新建配置文件application-yml-简单配置如下："><a href="#7-新建配置文件application-yml-简单配置如下：" class="headerlink" title="(7)新建配置文件application.yml,简单配置如下："></a>(7)新建配置文件application.yml,简单配置如下：</h5><p><img data-src="2020-07-13-springboot/9.png" alt="7"></p><p><img data-src="2020-07-13-springboot/springboot-porject7.png" alt="7"></p><h5 id="8-打开浏览器，查看效果"><a href="#8-打开浏览器，查看效果" class="headerlink" title="(8)打开浏览器，查看效果"></a>(8)打开浏览器，查看效果</h5><p><img data-src="2020-07-13-springboot/springboot-porject8.png" alt="8"></p><h5 id="9-我遇到的问题"><a href="#9-我遇到的问题" class="headerlink" title="(9)我遇到的问题"></a>(9)我遇到的问题</h5><p>​ springboot依赖下载很慢，使用镜像，</p><p>​</p><p>​</p>]]></content>
     
     <summary type="html">
     
@@ -68,7 +138,7 @@
     <published>2020-07-11T19:26:49.000Z</published>
     <updated>2020-07-11T20:01:57.937Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前端学习笔记-es6基础-1-："><a href="#前端学习笔记-es6基础-1-：" class="headerlink" title="前端学习笔记(es6基础)[1]："></a>前端学习笔记(es6基础)[1]：</h3><h4 id="1-let与const区别"><a href="#1-let与const区别" class="headerlink" title="1.let与const区别"></a>1.let与const区别</h4>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="前端学习笔记-es6基础-1-："><a href="#前端学习笔记-es6基础-1-：" class="headerlink" title="前端学习笔记(es6基础)[1]："></a>前端学习笔记(es6基础)[1]：</h3><h4 id="1-let与const区别"><a href="#1-let与const区别" class="headerlink" title="1.let与const区别"></a>1.let与const区别</h4>]]></content>
     
     <summary type="html">
     
@@ -94,7 +164,7 @@
     <published>2020-04-19T18:16:37.000Z</published>
     <updated>2020-04-19T18:16:37.992Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
     
     <summary type="html">
     
@@ -118,7 +188,7 @@
     <published>2020-04-19T16:46:19.000Z</published>
     <updated>2020-04-19T16:47:25.339Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>test3</p><p>版权信息</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>test3</p><p>版权信息</p>]]></content>
     
     <summary type="html">
     
@@ -142,7 +212,7 @@
     <published>2020-04-18T09:24:26.000Z</published>
     <updated>2020-04-18T14:38:57.628Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Test-image</p><p><img data-src="2020-04-18-image-hexo/1.jpg" alt="添加图片"></p><a id="more"></a><p><img data-src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gdya9ju3fuj30dw0aht9d.jpg" alt="图床图片"></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Test-image</p><p><img data-src="2020-04-18-image-hexo/1.jpg" alt="添加图片"></p><a id="more"></a><p><img data-src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gdya9ju3fuj30dw0aht9d.jpg" alt="图床图片"></p>]]></content>
     
     <summary type="html">
     
@@ -163,7 +233,7 @@
     <published>2020-04-18T08:47:13.000Z</published>
     <updated>2020-04-18T09:23:57.457Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>test</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>test</p>]]></content>
     
     <summary type="html">
     
@@ -189,7 +259,7 @@
     <published>2019-10-17T16:24:04.000Z</published>
     <updated>2020-04-24T06:29:25.912Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h1><h4 id="1-标题的文字前加-符号-有几个-号表示几号标题"><a href="#1-标题的文字前加-符号-有几个-号表示几号标题" class="headerlink" title="1.标题的文字前加#符号(有几个#号表示几号标题)"></a>1.标题的文字前加#符号(有几个#号表示几号标题)</h4><h4 id="2-要加粗的文字用两个-号包起来"><a href="#2-要加粗的文字用两个-号包起来" class="headerlink" title="2.要加粗的文字用两个*号包起来"></a><strong>2.要加粗的文字用两个*号包起来</strong></h4><h4 id="3-斜体使用一个-包起来"><a href="#3-斜体使用一个-包起来" class="headerlink" title="3.斜体使用一个\包起来*"></a><em>3.斜体使用一个\</em>包起来*</h4><h4 id="4-斜体加粗使用的3-个包起来"><a href="#4-斜体加粗使用的3-个包起来" class="headerlink" title="4.斜体加粗使用的3\个包起来*"></a><strong><em>4.斜体加粗使用的3\</em>个包起来*</strong></h4><h4 id="5-删除线使用两个-号包起来"><a href="#5-删除线使用两个-号包起来" class="headerlink" title="5.删除线使用两个\~号包起来~~"></a><del>5.删除线使用两个\</del>~号包起来~~</h4><h4 id="6-使用-gt-表示引用-可以嵌套"><a href="#6-使用-gt-表示引用-可以嵌套" class="headerlink" title="6.使用&gt;表示引用,可以嵌套"></a>6.使用&gt;表示引用,可以嵌套</h4><blockquote><p>也可以使用多个&gt;</p></blockquote><h4 id="7-分割线：三个或三个以上的-或"><a href="#7-分割线：三个或三个以上的-或" class="headerlink" title="7.分割线：三个或三个以上的-或*"></a>7.分割线：三个或三个以上的-或*</h4><hr><h4 id="8-在markdown中表示-gt-符号需要在前面加-转义"><a href="#8-在markdown中表示-gt-符号需要在前面加-转义" class="headerlink" title="8.在markdown中表示#,*,&gt;符号需要在前面加\转义"></a>8.在markdown中表示#,*,&gt;符号需要在前面加\转义</h4><h4 id="9-图片"><a href="#9-图片" class="headerlink" title="9.图片"></a>9.图片</h4><pre><code>![图片alt](图片地址 &quot;图片title&quot;)</code></pre><h4 id="10-超链接"><a href="#10-超链接" class="headerlink" title="10.超链接"></a>10.超链接</h4><pre><code>[超链接名](链接地址 &quot;超链接title&quot;)使用HTML标签&lt;a href=&quot;超链接地址&quot; target=&quot;_blank&quot;&gt;超链接名&lt;/a&gt;</code></pre><h4 id="11-列表"><a href="#11-列表" class="headerlink" title="11.列表"></a>11.列表</h4><ul><li><p>无序列表 使用 - + * 任何一种都可以（内容与符号之间有空格）</p><ol><li><p>有序列表</p></li><li><p>序号跟内容之间也要加空格</p><ul><li>列表嵌套： 上一级与下一级之间有3个空格（好像Tab也行）</li></ul></li></ol></li></ul><a id="more"></a><h4 id="12-表格"><a href="#12-表格" class="headerlink" title="12.表格"></a>12.表格</h4><pre><code>表头|表头|表头---|:--:|---:内容|内容|内容内容|内容|内容第二行分割表头和内容。- 有一个就行，为了对齐，多加了几个文字默认居左-两边加：表示文字居中-右边加：表示文字居右注：原生的语法两边都要用 | 包起来。此处省略</code></pre><h4 id="13-代码"><a href="#13-代码" class="headerlink" title="13.代码"></a>13.代码</h4><pre><code>单行代码 `代码内容`代码块     (```)      代码...      代码...      代码...    (```)    //此处括号仅做区分用实际上只用```</code></pre><h4 id="14-目录"><a href="#14-目录" class="headerlink" title="14.目录"></a>14.目录</h4><p>在任何你想要展示Markdown 笔记目录的地方，添加 <code>[TOC]</code>， 在阅读模式下，标题1~6样式的内容会被提取出来作为目录，相当于大纲功能。</p><p>[TOC]</p><h4 id="15-Mathjax公式"><a href="#15-Mathjax公式" class="headerlink" title="15.Mathjax公式"></a>15.Mathjax公式</h4><ul><li>学习Mathjax <a href="https://colobu.com/2014/08/17/MathJax-quick-reference/">https://colobu.com/2014/08/17/MathJax-quick-reference/</a></li></ul><p>$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$</p><p>$$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p><h4 id="16-流程图"><a href="#16-流程图" class="headerlink" title="16.流程图"></a>16.流程图</h4><ul><li>学习Markdown流程图 <a href="https://segmentfault.com/a/1190000006247465">https://segmentfault.com/a/1190000006247465</a></li></ul><pre class=" language-flow"><code class="language-flow">st=>start: 开始op=>operation: 我的操作cond=>condition: 确认?e=>end:结束//通常我们上面是写流程图主体，下面是写流程st->op->condcond(是)->econd(否)->op</code></pre><h4 id="17-时序图等…"><a href="#17-时序图等…" class="headerlink" title="17.时序图等…"></a>17.时序图等…</h4><h4 id="18-markdown文档"><a href="#18-markdown文档" class="headerlink" title="18.markdown文档"></a>18.markdown文档</h4><p><a href="https://markdown-zh.readthedocs.io/en/latest/blockelements/">markdown中文文档</a></p><h4 id="19-markdown小技巧"><a href="#19-markdown小技巧" class="headerlink" title="19.markdown小技巧"></a>19.markdown小技巧</h4><p>markdown兼容HTML语法</p><ul><li><p>添加上标或下标</p><pre><code>氢气H&lt;sub&gt;2&lt;/sub&gt;品牌&lt;sup&gt;TM&lt;/sup&gt;</code></pre></li></ul><p>效果：</p><blockquote><p>氢气H<sub>2</sub><br>品牌<sup>TM</sup></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h1><h4 id="1-标题的文字前加-符号-有几个-号表示几号标题"><a href="#1-标题的文字前加-符号-有几个-号表示几号标题" class="headerlink" title="1.标题的文字前加#符号(有几个#号表示几号标题)"></a>1.标题的文字前加#符号(有几个#号表示几号标题)</h4><h4 id="2-要加粗的文字用两个-号包起来"><a href="#2-要加粗的文字用两个-号包起来" class="headerlink" title="2.要加粗的文字用两个*号包起来"></a><strong>2.要加粗的文字用两个*号包起来</strong></h4><h4 id="3-斜体使用一个-包起来"><a href="#3-斜体使用一个-包起来" class="headerlink" title="3.斜体使用一个\包起来*"></a><em>3.斜体使用一个\</em>包起来*</h4><h4 id="4-斜体加粗使用的3-个包起来"><a href="#4-斜体加粗使用的3-个包起来" class="headerlink" title="4.斜体加粗使用的3\个包起来*"></a><strong><em>4.斜体加粗使用的3\</em>个包起来*</strong></h4><h4 id="5-删除线使用两个-号包起来"><a href="#5-删除线使用两个-号包起来" class="headerlink" title="5.删除线使用两个\~号包起来~~"></a><del>5.删除线使用两个\</del>~号包起来~~</h4><h4 id="6-使用-gt-表示引用-可以嵌套"><a href="#6-使用-gt-表示引用-可以嵌套" class="headerlink" title="6.使用&gt;表示引用,可以嵌套"></a>6.使用&gt;表示引用,可以嵌套</h4><blockquote><p>也可以使用多个&gt;</p></blockquote><h4 id="7-分割线：三个或三个以上的-或"><a href="#7-分割线：三个或三个以上的-或" class="headerlink" title="7.分割线：三个或三个以上的-或*"></a>7.分割线：三个或三个以上的-或*</h4><hr><h4 id="8-在markdown中表示-gt-符号需要在前面加-转义"><a href="#8-在markdown中表示-gt-符号需要在前面加-转义" class="headerlink" title="8.在markdown中表示#,*,&gt;符号需要在前面加\转义"></a>8.在markdown中表示#,*,&gt;符号需要在前面加\转义</h4><h4 id="9-图片"><a href="#9-图片" class="headerlink" title="9.图片"></a>9.图片</h4><pre><code>![图片alt](图片地址 &quot;图片title&quot;)</code></pre><h4 id="10-超链接"><a href="#10-超链接" class="headerlink" title="10.超链接"></a>10.超链接</h4><pre><code>[超链接名](链接地址 &quot;超链接title&quot;)使用HTML标签&lt;a href=&quot;超链接地址&quot; target=&quot;_blank&quot;&gt;超链接名&lt;/a&gt;</code></pre><h4 id="11-列表"><a href="#11-列表" class="headerlink" title="11.列表"></a>11.列表</h4><ul><li><p>无序列表 使用 - + * 任何一种都可以（内容与符号之间有空格）</p><ol><li><p>有序列表</p></li><li><p>序号跟内容之间也要加空格</p><ul><li>列表嵌套： 上一级与下一级之间有3个空格（好像Tab也行）</li></ul></li></ol></li></ul><a id="more"></a><h4 id="12-表格"><a href="#12-表格" class="headerlink" title="12.表格"></a>12.表格</h4><pre><code>表头|表头|表头---|:--:|---:内容|内容|内容内容|内容|内容第二行分割表头和内容。- 有一个就行，为了对齐，多加了几个文字默认居左-两边加：表示文字居中-右边加：表示文字居右注：原生的语法两边都要用 | 包起来。此处省略</code></pre><h4 id="13-代码"><a href="#13-代码" class="headerlink" title="13.代码"></a>13.代码</h4><pre><code>单行代码 `代码内容`代码块     (```)      代码...      代码...      代码...    (```)    //此处括号仅做区分用实际上只用```</code></pre><h4 id="14-目录"><a href="#14-目录" class="headerlink" title="14.目录"></a>14.目录</h4><p>在任何你想要展示Markdown 笔记目录的地方，添加 <code>[TOC]</code>， 在阅读模式下，标题1~6样式的内容会被提取出来作为目录，相当于大纲功能。</p><p>[TOC]</p><h4 id="15-Mathjax公式"><a href="#15-Mathjax公式" class="headerlink" title="15.Mathjax公式"></a>15.Mathjax公式</h4><ul><li>学习Mathjax <a href="https://colobu.com/2014/08/17/MathJax-quick-reference/">https://colobu.com/2014/08/17/MathJax-quick-reference/</a></li></ul><p>$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$</p><p>$$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p><h4 id="16-流程图"><a href="#16-流程图" class="headerlink" title="16.流程图"></a>16.流程图</h4><ul><li>学习Markdown流程图 <a href="https://segmentfault.com/a/1190000006247465">https://segmentfault.com/a/1190000006247465</a></li></ul><pre class=" language-flow"><code class="language-flow">st=>start: 开始op=>operation: 我的操作cond=>condition: 确认?e=>end:结束//通常我们上面是写流程图主体，下面是写流程st->op->condcond(是)->econd(否)->op</code></pre><h4 id="17-时序图等…"><a href="#17-时序图等…" class="headerlink" title="17.时序图等…"></a>17.时序图等…</h4><h4 id="18-markdown文档"><a href="#18-markdown文档" class="headerlink" title="18.markdown文档"></a>18.markdown文档</h4><p><a href="https://markdown-zh.readthedocs.io/en/latest/blockelements/">markdown中文文档</a></p><h4 id="19-markdown小技巧"><a href="#19-markdown小技巧" class="headerlink" title="19.markdown小技巧"></a>19.markdown小技巧</h4><p>markdown兼容HTML语法</p><ul><li><p>添加上标或下标</p><pre><code>氢气H&lt;sub&gt;2&lt;/sub&gt;品牌&lt;sup&gt;TM&lt;/sup&gt;</code></pre></li></ul><p>效果：</p><blockquote><p>氢气H<sub>2</sub><br>品牌<sup>TM</sup></p></blockquote>]]></content>
     
     <summary type="html">
     
