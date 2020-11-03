@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wfppfw.github.io/"/>
-  <updated>2020-10-30T05:17:06.165Z</updated>
+  <updated>2020-10-30T12:56:29.171Z</updated>
   <id>https://wfppfw.github.io/</id>
   
   <author>
@@ -21,16 +21,13 @@
     <link href="https://wfppfw.github.io/2020/10/30/redis/"/>
     <id>https://wfppfw.github.io/2020/10/30/redis/</id>
     <published>2020-10-30T05:09:57.000Z</published>
-    <updated>2020-10-30T05:17:06.165Z</updated>
+    <updated>2020-10-30T12:56:29.171Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="一、下载安装redis"><a href="#一、下载安装redis" class="headerlink" title="一、下载安装redis"></a>一、下载安装redis</h1><ol><li><a href="https://www.redis.net.cn/download/">下载地址</a></li><li>存放目录：/usr/local， 快捷键command+shift+g，输入/usr/local, 快速跳转到该目录下</li><li>解压、编译当前目录，打开命令行工具，执行解压命令：tar zxvf redis-5.0.8.tar.gz，执行 sudo make test 编译测试，sudo make install 编译安装</li><li>执行 redis-server 启动服务</li><li>另起命令行窗口，执行redis-cli 开启项目即可</li><li>测试：</li></ol><ul><li>存储命令： set name william，输出ok，即表示成功</li><li>获取命令： get name，输出对应的value值</li></ul><h1 id="二、安装可视化工具"><a href="#二、安装可视化工具" class="headerlink" title="二、安装可视化工具"></a>二、安装可视化工具</h1><ol><li><a href="https://sn9.us/file/19349366-399568027">下载链接</a></li><li>Settings-&gt;language-&gt;zh_CN</li></ol>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="一、下载安装redis"><a href="#一、下载安装redis" class="headerlink" title="一、下载安装redis"></a>一、下载安装redis</h1><ol><li><a href="https://www.redis.net.cn/download/">下载地址</a></li><li>存放目录：/usr/local， 快捷键command+shift+g，输入/usr/local, 快速跳转到该目录下</li><li>解压、编译当前目录，打开命令行工具，执行解压命令：tar zxvf redis-5.0.8.tar.gz，执行 sudo make test 编译测试，sudo make install 编译安装</li><li>执行 redis-server 启动服务</li><li>另起命令行窗口，执行redis-cli 开启项目即可</li><li>测试：</li></ol><ul><li>存储命令： set name william，输出ok，即表示成功</li><li>获取命令： get name，输出对应的value值</li></ul><a id="more"></a><h1 id="二、安装可视化工具"><a href="#二、安装可视化工具" class="headerlink" title="二、安装可视化工具"></a>二、安装可视化工具</h1><ol><li><a href="https://sn9.us/file/19349366-399568027">下载链接</a></li><li>Settings-&gt;language-&gt;zh_CN</li></ol>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
+      &lt;h1 id=&quot;一、下载安装redis&quot;&gt;&lt;a href=&quot;#一、下载安装redis&quot; class=&quot;headerlink&quot; title=&quot;一、下载安装redis&quot;&gt;&lt;/a&gt;一、下载安装redis&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://www.redis.net.cn/download/&quot;&gt;下载地址&lt;/a&gt;&lt;/li&gt;&lt;li&gt;存放目录：/usr/local， 快捷键command+shift+g，输入/usr/local, 快速跳转到该目录下&lt;/li&gt;&lt;li&gt;解压、编译当前目录，打开命令行工具，执行解压命令：tar zxvf redis-5.0.8.tar.gz，执行 sudo make test 编译测试，sudo make install 编译安装&lt;/li&gt;&lt;li&gt;执行 redis-server 启动服务&lt;/li&gt;&lt;li&gt;另起命令行窗口，执行redis-cli 开启项目即可&lt;/li&gt;&lt;li&gt;测试：&lt;/li&gt;&lt;/ol&gt;&lt;ul&gt;&lt;li&gt;存储命令： set name william，输出ok，即表示成功&lt;/li&gt;&lt;li&gt;获取命令： get name，输出对应的value值&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
@@ -39,72 +36,6 @@
     
     
       <category term="redis" scheme="https://wfppfw.github.io/tags/redis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Untitled-2</title>
-    <link href="https://wfppfw.github.io/2020/10/30/Untitled-2/"/>
-    <id>https://wfppfw.github.io/2020/10/30/Untitled-2/</id>
-    <published>2020-10-30T04:53:31.458Z</published>
-    <updated>2020-10-30T04:53:31.458Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Untitled-1</title>
-    <link href="https://wfppfw.github.io/2020/10/30/Untitled-1/"/>
-    <id>https://wfppfw.github.io/2020/10/30/Untitled-1/</id>
-    <published>2020-10-30T04:53:21.839Z</published>
-    <updated>2020-10-30T04:53:21.839Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Untitled</title>
-    <link href="https://wfppfw.github.io/2020/07/14/Untitled/"/>
-    <id>https://wfppfw.github.io/2020/07/14/Untitled/</id>
-    <published>2020-07-13T18:05:23.908Z</published>
-    <updated>2020-07-13T18:05:50.093Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
     
   </entry>
   
@@ -128,32 +59,6 @@
     
     
       <category term="java" scheme="https://wfppfw.github.io/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>es6-1</title>
-    <link href="https://wfppfw.github.io/2020/07/12/es6-1-md/"/>
-    <id>https://wfppfw.github.io/2020/07/12/es6-1-md/</id>
-    <published>2020-07-11T19:26:49.000Z</published>
-    <updated>2020-07-11T20:01:57.937Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="前端学习笔记-es6基础-1-："><a href="#前端学习笔记-es6基础-1-：" class="headerlink" title="前端学习笔记(es6基础)[1]："></a>前端学习笔记(es6基础)[1]：</h3><h4 id="1-let与const区别"><a href="#1-let与const区别" class="headerlink" title="1.let与const区别"></a>1.let与const区别</h4>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="web前端" scheme="https://wfppfw.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="ES6" scheme="https://wfppfw.github.io/tags/ES6/"/>
     
   </entry>
   
@@ -182,121 +87,21 @@
   </entry>
   
   <entry>
-    <title>test3</title>
-    <link href="https://wfppfw.github.io/2020/04/20/test3/"/>
-    <id>https://wfppfw.github.io/2020/04/20/test3/</id>
-    <published>2020-04-19T16:46:19.000Z</published>
-    <updated>2020-04-19T16:47:25.339Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>test3</p><p>版权信息</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="web前端" scheme="https://wfppfw.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>image-hexo</title>
-    <link href="https://wfppfw.github.io/2020/04/18/image-hexo/"/>
-    <id>https://wfppfw.github.io/2020/04/18/image-hexo/</id>
-    <published>2020-04-18T09:24:26.000Z</published>
-    <updated>2020-04-18T14:38:57.628Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>Test-image</p><p><img data-src="2020-04-18-image-hexo/1.jpg" alt="添加图片"></p><a id="more"></a><p><img data-src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gdya9ju3fuj30dw0aht9d.jpg" alt="图床图片"></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Test-image&lt;/p&gt;&lt;p&gt;&lt;img data-src=&quot;2020-04-18-image-hexo/1.jpg&quot; alt=&quot;添加图片&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="web前端" scheme="https://wfppfw.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>crate</title>
-    <link href="https://wfppfw.github.io/2020/04/18/crate/"/>
-    <id>https://wfppfw.github.io/2020/04/18/crate/</id>
-    <published>2020-04-18T08:47:13.000Z</published>
-    <updated>2020-04-18T09:23:57.457Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>test</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="hexo" scheme="https://wfppfw.github.io/categories/hexo/"/>
-    
-    
-      <category term="test" scheme="https://wfppfw.github.io/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
     <title>test</title>
     <link href="https://wfppfw.github.io/2019/10/18/test/"/>
     <id>https://wfppfw.github.io/2019/10/18/test/</id>
     <published>2019-10-17T16:24:04.000Z</published>
-    <updated>2020-04-24T06:29:25.912Z</updated>
+    <updated>2020-10-30T13:00:13.145Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h1><h4 id="1-标题的文字前加-符号-有几个-号表示几号标题"><a href="#1-标题的文字前加-符号-有几个-号表示几号标题" class="headerlink" title="1.标题的文字前加#符号(有几个#号表示几号标题)"></a>1.标题的文字前加#符号(有几个#号表示几号标题)</h4><h4 id="2-要加粗的文字用两个-号包起来"><a href="#2-要加粗的文字用两个-号包起来" class="headerlink" title="2.要加粗的文字用两个*号包起来"></a><strong>2.要加粗的文字用两个*号包起来</strong></h4><h4 id="3-斜体使用一个-包起来"><a href="#3-斜体使用一个-包起来" class="headerlink" title="3.斜体使用一个\包起来*"></a><em>3.斜体使用一个\</em>包起来*</h4><h4 id="4-斜体加粗使用的3-个包起来"><a href="#4-斜体加粗使用的3-个包起来" class="headerlink" title="4.斜体加粗使用的3\个包起来*"></a><strong><em>4.斜体加粗使用的3\</em>个包起来*</strong></h4><h4 id="5-删除线使用两个-号包起来"><a href="#5-删除线使用两个-号包起来" class="headerlink" title="5.删除线使用两个\~号包起来~~"></a><del>5.删除线使用两个\</del>~号包起来~~</h4><h4 id="6-使用-gt-表示引用-可以嵌套"><a href="#6-使用-gt-表示引用-可以嵌套" class="headerlink" title="6.使用&gt;表示引用,可以嵌套"></a>6.使用&gt;表示引用,可以嵌套</h4><blockquote><p>也可以使用多个&gt;</p></blockquote><h4 id="7-分割线：三个或三个以上的-或"><a href="#7-分割线：三个或三个以上的-或" class="headerlink" title="7.分割线：三个或三个以上的-或*"></a>7.分割线：三个或三个以上的-或*</h4><hr><h4 id="8-在markdown中表示-gt-符号需要在前面加-转义"><a href="#8-在markdown中表示-gt-符号需要在前面加-转义" class="headerlink" title="8.在markdown中表示#,*,&gt;符号需要在前面加\转义"></a>8.在markdown中表示#,*,&gt;符号需要在前面加\转义</h4><h4 id="9-图片"><a href="#9-图片" class="headerlink" title="9.图片"></a>9.图片</h4><pre><code>![图片alt](图片地址 &quot;图片title&quot;)</code></pre><h4 id="10-超链接"><a href="#10-超链接" class="headerlink" title="10.超链接"></a>10.超链接</h4><pre><code>[超链接名](链接地址 &quot;超链接title&quot;)使用HTML标签&lt;a href=&quot;超链接地址&quot; target=&quot;_blank&quot;&gt;超链接名&lt;/a&gt;</code></pre><h4 id="11-列表"><a href="#11-列表" class="headerlink" title="11.列表"></a>11.列表</h4><ul><li><p>无序列表 使用 - + * 任何一种都可以（内容与符号之间有空格）</p><ol><li><p>有序列表</p></li><li><p>序号跟内容之间也要加空格</p><ul><li>列表嵌套： 上一级与下一级之间有3个空格（好像Tab也行）</li></ul></li></ol></li></ul><a id="more"></a><h4 id="12-表格"><a href="#12-表格" class="headerlink" title="12.表格"></a>12.表格</h4><pre><code>表头|表头|表头---|:--:|---:内容|内容|内容内容|内容|内容第二行分割表头和内容。- 有一个就行，为了对齐，多加了几个文字默认居左-两边加：表示文字居中-右边加：表示文字居右注：原生的语法两边都要用 | 包起来。此处省略</code></pre><h4 id="13-代码"><a href="#13-代码" class="headerlink" title="13.代码"></a>13.代码</h4><pre><code>单行代码 `代码内容`代码块     (```)      代码...      代码...      代码...    (```)    //此处括号仅做区分用实际上只用```</code></pre><h4 id="14-目录"><a href="#14-目录" class="headerlink" title="14.目录"></a>14.目录</h4><p>在任何你想要展示Markdown 笔记目录的地方，添加 <code>[TOC]</code>， 在阅读模式下，标题1~6样式的内容会被提取出来作为目录，相当于大纲功能。</p><p>[TOC]</p><h4 id="15-Mathjax公式"><a href="#15-Mathjax公式" class="headerlink" title="15.Mathjax公式"></a>15.Mathjax公式</h4><ul><li>学习Mathjax <a href="https://colobu.com/2014/08/17/MathJax-quick-reference/">https://colobu.com/2014/08/17/MathJax-quick-reference/</a></li></ul><p>$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$</p><p>$$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p><h4 id="16-流程图"><a href="#16-流程图" class="headerlink" title="16.流程图"></a>16.流程图</h4><ul><li>学习Markdown流程图 <a href="https://segmentfault.com/a/1190000006247465">https://segmentfault.com/a/1190000006247465</a></li></ul><pre class=" language-flow"><code class="language-flow">st=>start: 开始op=>operation: 我的操作cond=>condition: 确认?e=>end:结束//通常我们上面是写流程图主体，下面是写流程st->op->condcond(是)->econd(否)->op</code></pre><h4 id="17-时序图等…"><a href="#17-时序图等…" class="headerlink" title="17.时序图等…"></a>17.时序图等…</h4><h4 id="18-markdown文档"><a href="#18-markdown文档" class="headerlink" title="18.markdown文档"></a>18.markdown文档</h4><p><a href="https://markdown-zh.readthedocs.io/en/latest/blockelements/">markdown中文文档</a></p><h4 id="19-markdown小技巧"><a href="#19-markdown小技巧" class="headerlink" title="19.markdown小技巧"></a>19.markdown小技巧</h4><p>markdown兼容HTML语法</p><ul><li><p>添加上标或下标</p><pre><code>氢气H&lt;sub&gt;2&lt;/sub&gt;品牌&lt;sup&gt;TM&lt;/sup&gt;</code></pre></li></ul><p>效果：</p><blockquote><p>氢气H<sub>2</sub><br>品牌<sup>TM</sup></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h1><h4 id="1-标题的文字前加-符号-有几个-号表示几号标题"><a href="#1-标题的文字前加-符号-有几个-号表示几号标题" class="headerlink" title="1.标题的文字前加#符号(有几个#号表示几号标题)"></a>1.标题的文字前加#符号(有几个#号表示几号标题)</h4><h4 id="2-要加粗的文字用两个-号包起来"><a href="#2-要加粗的文字用两个-号包起来" class="headerlink" title="2.要加粗的文字用两个*号包起来"></a><strong>2.要加粗的文字用两个*号包起来</strong></h4><h4 id="3-斜体使用一个-包起来"><a href="#3-斜体使用一个-包起来" class="headerlink" title="3.斜体使用一个\包起来*"></a><em>3.斜体使用一个\</em>包起来*</h4><h4 id="4-斜体加粗使用的3-个包起来"><a href="#4-斜体加粗使用的3-个包起来" class="headerlink" title="4.斜体加粗使用的3\个包起来*"></a><strong><em>4.斜体加粗使用的3\</em>个包起来*</strong></h4><h4 id="5-删除线使用两个-号包起来"><a href="#5-删除线使用两个-号包起来" class="headerlink" title="5.删除线使用两个\~号包起来~~"></a><del>5.删除线使用两个\</del>~号包起来~~</h4><a id="more"></a><h4 id="6-使用-gt-表示引用-可以嵌套"><a href="#6-使用-gt-表示引用-可以嵌套" class="headerlink" title="6.使用&gt;表示引用,可以嵌套"></a>6.使用&gt;表示引用,可以嵌套</h4><blockquote><p>也可以使用多个&gt;</p></blockquote><h4 id="7-分割线：三个或三个以上的-或"><a href="#7-分割线：三个或三个以上的-或" class="headerlink" title="7.分割线：三个或三个以上的-或*"></a>7.分割线：三个或三个以上的-或*</h4><hr><h4 id="8-在markdown中表示-gt-符号需要在前面加-转义"><a href="#8-在markdown中表示-gt-符号需要在前面加-转义" class="headerlink" title="8.在markdown中表示#,*,&gt;符号需要在前面加\转义"></a>8.在markdown中表示#,*,&gt;符号需要在前面加\转义</h4><h4 id="9-图片"><a href="#9-图片" class="headerlink" title="9.图片"></a>9.图片</h4><pre><code>![图片alt](图片地址 &quot;图片title&quot;)</code></pre><h4 id="10-超链接"><a href="#10-超链接" class="headerlink" title="10.超链接"></a>10.超链接</h4><pre><code>[超链接名](链接地址 &quot;超链接title&quot;)使用HTML标签&lt;a href=&quot;超链接地址&quot; target=&quot;_blank&quot;&gt;超链接名&lt;/a&gt;</code></pre><h4 id="11-列表"><a href="#11-列表" class="headerlink" title="11.列表"></a>11.列表</h4><ul><li><p>无序列表 使用 - + * 任何一种都可以（内容与符号之间有空格）</p><ol><li><p>有序列表</p></li><li><p>序号跟内容之间也要加空格</p><ul><li>列表嵌套： 上一级与下一级之间有3个空格（好像Tab也行）</li></ul></li></ol></li></ul><h4 id="12-表格"><a href="#12-表格" class="headerlink" title="12.表格"></a>12.表格</h4><pre><code>表头|表头|表头---|:--:|---:内容|内容|内容内容|内容|内容第二行分割表头和内容。- 有一个就行，为了对齐，多加了几个文字默认居左-两边加：表示文字居中-右边加：表示文字居右注：原生的语法两边都要用 | 包起来。此处省略</code></pre><h4 id="13-代码"><a href="#13-代码" class="headerlink" title="13.代码"></a>13.代码</h4><pre><code>单行代码 `代码内容`代码块     (```)      代码...      代码...      代码...    (```)    //此处括号仅做区分用实际上只用```</code></pre><h4 id="14-目录"><a href="#14-目录" class="headerlink" title="14.目录"></a>14.目录</h4><p>在任何你想要展示Markdown 笔记目录的地方，添加 <code>[TOC]</code>， 在阅读模式下，标题1~6样式的内容会被提取出来作为目录，相当于大纲功能。</p><p>[TOC]</p><h4 id="15-Mathjax公式"><a href="#15-Mathjax公式" class="headerlink" title="15.Mathjax公式"></a>15.Mathjax公式</h4><ul><li>学习Mathjax <a href="https://colobu.com/2014/08/17/MathJax-quick-reference/">https://colobu.com/2014/08/17/MathJax-quick-reference/</a></li></ul><p>$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$</p><p>$$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p><h4 id="16-流程图"><a href="#16-流程图" class="headerlink" title="16.流程图"></a>16.流程图</h4><ul><li>学习Markdown流程图 <a href="https://segmentfault.com/a/1190000006247465">https://segmentfault.com/a/1190000006247465</a></li></ul><pre class=" language-flow"><code class="language-flow">st=>start: 开始op=>operation: 我的操作cond=>condition: 确认?e=>end:结束//通常我们上面是写流程图主体，下面是写流程st->op->condcond(是)->econd(否)->op</code></pre><h4 id="17-时序图等…"><a href="#17-时序图等…" class="headerlink" title="17.时序图等…"></a>17.时序图等…</h4><h4 id="18-markdown文档"><a href="#18-markdown文档" class="headerlink" title="18.markdown文档"></a>18.markdown文档</h4><p><a href="https://markdown-zh.readthedocs.io/en/latest/blockelements/">markdown中文文档</a></p><h4 id="19-markdown小技巧"><a href="#19-markdown小技巧" class="headerlink" title="19.markdown小技巧"></a>19.markdown小技巧</h4><p>markdown兼容HTML语法</p><ul><li><p>添加上标或下标</p><pre><code>氢气H&lt;sub&gt;2&lt;/sub&gt;品牌&lt;sup&gt;TM&lt;/sup&gt;</code></pre></li></ul><p>效果：</p><blockquote><p>氢气H<sub>2</sub><br>品牌<sup>TM</sup></p></blockquote>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;markdown语法&quot;&gt;&lt;a href=&quot;#markdown语法&quot; class=&quot;headerlink&quot; title=&quot;markdown语法&quot;&gt;&lt;/a&gt;markdown语法&lt;/h1&gt;&lt;h4 id=&quot;1-标题的文字前加-符号-有几个-号表示几号标题&quot;&gt;&lt;a href=&quot;#1-标题的文字前加-符号-有几个-号表示几号标题&quot; class=&quot;headerlink&quot; title=&quot;1.标题的文字前加#符号(有几个#号表示几号标题)&quot;&gt;&lt;/a&gt;1.标题的文字前加#符号(有几个#号表示几号标题)&lt;/h4&gt;&lt;h4 id=&quot;2-要加粗的文字用两个-号包起来&quot;&gt;&lt;a href=&quot;#2-要加粗的文字用两个-号包起来&quot; class=&quot;headerlink&quot; title=&quot;2.要加粗的文字用两个*号包起来&quot;&gt;&lt;/a&gt;&lt;strong&gt;2.要加粗的文字用两个*号包起来&lt;/strong&gt;&lt;/h4&gt;&lt;h4 id=&quot;3-斜体使用一个-包起来&quot;&gt;&lt;a href=&quot;#3-斜体使用一个-包起来&quot; class=&quot;headerlink&quot; title=&quot;3.斜体使用一个\包起来*&quot;&gt;&lt;/a&gt;&lt;em&gt;3.斜体使用一个\&lt;/em&gt;包起来*&lt;/h4&gt;&lt;h4 id=&quot;4-斜体加粗使用的3-个包起来&quot;&gt;&lt;a href=&quot;#4-斜体加粗使用的3-个包起来&quot; class=&quot;headerlink&quot; title=&quot;4.斜体加粗使用的3\个包起来*&quot;&gt;&lt;/a&gt;&lt;strong&gt;&lt;em&gt;4.斜体加粗使用的3\&lt;/em&gt;个包起来*&lt;/strong&gt;&lt;/h4&gt;&lt;h4 id=&quot;5-删除线使用两个-号包起来&quot;&gt;&lt;a href=&quot;#5-删除线使用两个-号包起来&quot; class=&quot;headerlink&quot; title=&quot;5.删除线使用两个\~号包起来~~&quot;&gt;&lt;/a&gt;&lt;del&gt;5.删除线使用两个\&lt;/del&gt;~号包起来~~&lt;/h4&gt;&lt;h4 id=&quot;6-使用-gt-表示引用-可以嵌套&quot;&gt;&lt;a href=&quot;#6-使用-gt-表示引用-可以嵌套&quot; class=&quot;headerlink&quot; title=&quot;6.使用&amp;gt;表示引用,可以嵌套&quot;&gt;&lt;/a&gt;6.使用&amp;gt;表示引用,可以嵌套&lt;/h4&gt;&lt;blockquote&gt;&lt;p&gt;也可以使用多个&amp;gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;h4 id=&quot;7-分割线：三个或三个以上的-或&quot;&gt;&lt;a href=&quot;#7-分割线：三个或三个以上的-或&quot; class=&quot;headerlink&quot; title=&quot;7.分割线：三个或三个以上的-或*&quot;&gt;&lt;/a&gt;7.分割线：三个或三个以上的-或*&lt;/h4&gt;&lt;hr&gt;&lt;h4 id=&quot;8-在markdown中表示-gt-符号需要在前面加-转义&quot;&gt;&lt;a href=&quot;#8-在markdown中表示-gt-符号需要在前面加-转义&quot; class=&quot;headerlink&quot; title=&quot;8.在markdown中表示#,*,&amp;gt;符号需要在前面加\转义&quot;&gt;&lt;/a&gt;8.在markdown中表示#,*,&amp;gt;符号需要在前面加\转义&lt;/h4&gt;&lt;h4 id=&quot;9-图片&quot;&gt;&lt;a href=&quot;#9-图片&quot; class=&quot;headerlink&quot; title=&quot;9.图片&quot;&gt;&lt;/a&gt;9.图片&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;![图片alt](图片地址 &amp;quot;图片title&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;10-超链接&quot;&gt;&lt;a href=&quot;#10-超链接&quot; class=&quot;headerlink&quot; title=&quot;10.超链接&quot;&gt;&lt;/a&gt;10.超链接&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;[超链接名](链接地址 &amp;quot;超链接title&amp;quot;)
-
-使用HTML标签&amp;lt;a href=&amp;quot;超链接地址&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;超链接名&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;11-列表&quot;&gt;&lt;a href=&quot;#11-列表&quot; class=&quot;headerlink&quot; title=&quot;11.列表&quot;&gt;&lt;/a&gt;11.列表&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;无序列表 使用 - + * 任何一种都可以（内容与符号之间有空格）&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;有序列表&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;序号跟内容之间也要加空格&lt;/p&gt;&lt;ul&gt;&lt;li&gt;列表嵌套： 上一级与下一级之间有3个空格（好像Tab也行）&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;
+      &lt;h1 id=&quot;markdown语法&quot;&gt;&lt;a href=&quot;#markdown语法&quot; class=&quot;headerlink&quot; title=&quot;markdown语法&quot;&gt;&lt;/a&gt;markdown语法&lt;/h1&gt;&lt;h4 id=&quot;1-标题的文字前加-符号-有几个-号表示几号标题&quot;&gt;&lt;a href=&quot;#1-标题的文字前加-符号-有几个-号表示几号标题&quot; class=&quot;headerlink&quot; title=&quot;1.标题的文字前加#符号(有几个#号表示几号标题)&quot;&gt;&lt;/a&gt;1.标题的文字前加#符号(有几个#号表示几号标题)&lt;/h4&gt;&lt;h4 id=&quot;2-要加粗的文字用两个-号包起来&quot;&gt;&lt;a href=&quot;#2-要加粗的文字用两个-号包起来&quot; class=&quot;headerlink&quot; title=&quot;2.要加粗的文字用两个*号包起来&quot;&gt;&lt;/a&gt;&lt;strong&gt;2.要加粗的文字用两个*号包起来&lt;/strong&gt;&lt;/h4&gt;&lt;h4 id=&quot;3-斜体使用一个-包起来&quot;&gt;&lt;a href=&quot;#3-斜体使用一个-包起来&quot; class=&quot;headerlink&quot; title=&quot;3.斜体使用一个\包起来*&quot;&gt;&lt;/a&gt;&lt;em&gt;3.斜体使用一个\&lt;/em&gt;包起来*&lt;/h4&gt;&lt;h4 id=&quot;4-斜体加粗使用的3-个包起来&quot;&gt;&lt;a href=&quot;#4-斜体加粗使用的3-个包起来&quot; class=&quot;headerlink&quot; title=&quot;4.斜体加粗使用的3\个包起来*&quot;&gt;&lt;/a&gt;&lt;strong&gt;&lt;em&gt;4.斜体加粗使用的3\&lt;/em&gt;个包起来*&lt;/strong&gt;&lt;/h4&gt;&lt;h4 id=&quot;5-删除线使用两个-号包起来&quot;&gt;&lt;a href=&quot;#5-删除线使用两个-号包起来&quot; class=&quot;headerlink&quot; title=&quot;5.删除线使用两个\~号包起来~~&quot;&gt;&lt;/a&gt;&lt;del&gt;5.删除线使用两个\&lt;/del&gt;~号包起来~~&lt;/h4&gt;
     
     </summary>
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://wfppfw.github.io/2019/10/16/hello-world/"/>
-    <id>https://wfppfw.github.io/2019/10/16/hello-world/</id>
-    <published>2019-10-16T02:34:25.566Z</published>
-    <updated>2020-04-18T08:38:22.484Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash"><code class="language-bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="web前端" scheme="https://wfppfw.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="hexo" scheme="https://wfppfw.github.io/tags/hexo/"/>
     
   </entry>
   
